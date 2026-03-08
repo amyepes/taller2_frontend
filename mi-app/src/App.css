@@ -1,26 +1,97 @@
 #root {
-  max-width: 1280px;
+  
   margin: 0 ;
-  padding: 2rem;
+  /*padding: 2rem;*/
   text-align: center;
+   --gradient-color: linear-gradient(90deg,rgba(25, 26, 46, 1) 0%, rgba(22, 32, 61, 1) 50%, rgba(17, 43, 81, 1) 100%) 
+  ;
+   --red-color: #e94560
+  ;
+  --sub-text-color: #6e6e78
+  ;
+  display: flex;
+  flex-direction: column;
 }
+
+span {
+  color: var(--red-color);
+}
+
 header {
   margin: 0;
+  width: 100%;
+  
+}
+
+.logo {
+  font-size: xx-large;
+  margin: 0;
+  color: var(--red-color);
 }
 
 .navbar {
   display: flex;
   top: 0;
   justify-content: space-between;
-  gap: 75vw;
+  background-color: #1a1a2e;
+  padding: 1rem 2rem 0.8rem 2rem;
 }
 
 .nav-links {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 2vw;
+}
+
+.hero {
+  background: var(--gradient-color);
+  min-height: 42vh;
+  padding-top: 5vh;
+}
+
+section.hero > p {
+  padding-left: 29vw;
+  padding-right: 29vw;
+  margin: 3%;
+  color: var(--sub-text-color);
+}
+
+section.hero > button {
+  margin-bottom: 5vh;
+}
+
+#cursos {
+  background-color: white;
+  color: black;
+  min-height: 42vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#cursos > h2 {
+  font-size: 2rem;
+  margin-top: 7vh;
+  margin-bottom: auto;
+}
+
+#cursos > p {
+  color: var(--sub-text-color);
+  margin-bottom: 5vh;
+}
+
+.tarjetas {
+  display: flex;
+  justify-content: space-between;
+  gap: 2vw;
+  margin-bottom: 9vh;
+  
 }
 
 .card {
   padding: 2em;
+  
 }
 
 .read-the-docs {

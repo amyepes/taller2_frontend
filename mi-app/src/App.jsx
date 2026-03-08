@@ -9,11 +9,11 @@ function App() {
     <>
       <header>
         <nav className='navbar'>
-          <h1 className="logo">ReactAcademy</h1>
+          <h5 className="logo">ReactAcademy</h5>
 
           <ul className="nav-links">
             <li><a href="#inicio" className="active">Inicio</a></li>
-            <li><a href="#cursos">cursos</a></li>            
+            <li><a href="#cursos">Cursos</a></li>
             <li><a href="#nosotros">Nosotros</a></li>
           </ul>
         </nav>
@@ -28,10 +28,12 @@ function App() {
       <section id='cursos'>
         <h2>Nuestros Cursos</h2>
         <p>Elige el camino que mejor se adapte a ti</p>
-        <Card titulo="card 1"/>
-        <Card titulo='card 2'/>
-        <Card titulo='card 3'/>
-        <Card titulo='card 4'/>
+        <div className='tarjetas'>
+          <Card icon = '⚛️' titulo="React Básico" texto='Componentes, props, estado y eventos. Todo lo que necesitas para empezar.' boton='Principiante'/>
+          <Card titulo='card 2' />
+          <Card titulo='card 3' />
+          <Card titulo='card 4' />
+        </div>
       </section>
 
       <section id='nosotros'>
