@@ -30,9 +30,9 @@ function App() {
         <p>Elige el camino que mejor se adapte a ti</p>
         <div className='tarjetas'>
           <Card icon = '⚛️' titulo="React Básico" texto='Componentes, props, estado y eventos. Todo lo que necesitas para empezar.' boton='Principiante'/>
-          <Card titulo='card 2' />
-          <Card titulo='card 3' />
-          <Card titulo='card 4' />
+          <Card icon = '🔄' titulo='React Hooks' texto='Profundiza en useState, useEffect y crea tus propios custom hooks.' />
+          <Card icon = '📁' titulo='Estado Global' texto='Gestiona el estado con Context API y aprende cuándo usarlo.' />
+          <Card icon = '🚀' titulo='React Avanzado' texto='Rendimiento, patrones avanzados y arquitectura para proyectos grandes.' boton='Avanzado'/>
         </div>
       </section>
 
