@@ -1,0 +1,21 @@
+.counterDiv {
+    background-color: #16213e;
+    min-height: 80px;
+    max-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.counterDiv > button {
+    padding: 0.9em 1.1em;
+    font-size: 0.8em;
+    margin: 3em;
+    border-radius: 100%;
+}
+
+.counterDiv > span {
+    font-size: 2.5em;
+    font-weight: 1000;
+}

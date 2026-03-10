@@ -13,6 +13,10 @@
   flex-direction: column;
 }
 
+p {
+  color: var(--sub-text-color);
+}
+
 span {
   color: var(--red-color);
 }
@@ -54,7 +58,6 @@ section.hero > p {
   padding-left: 29vw;
   padding-right: 29vw;
   margin: 3%;
-  color: var(--sub-text-color);
 }
 
 section.hero > button {
@@ -77,7 +80,6 @@ section.hero > button {
 }
 
 #cursos > p {
-  color: var(--sub-text-color);
   margin-bottom: 5vh;
 }
 
@@ -91,6 +93,26 @@ section.hero > button {
 
 #nosotros {
   background-color: #1a1a2e;
+  min-height: 49vh;
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#nosotros > h2 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+#nosotros > p {
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #111111;
+  min-height: 80px;
+  padding-top: 15px;
 }
 
 .read-the-docs {
