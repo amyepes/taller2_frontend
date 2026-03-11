@@ -12,13 +12,18 @@ function Counter() {
     function decrementar() {
         setCuenta(cuenta - 1);
     }
-    
+
     return (
-        <div className='counterDiv'>
-            <button onClick={decrementar}>-</button>
-            <span>{cuenta}</span>
-            <button onClick={incrementar}>+</button>
-        </div>
+        <section id='nosotros'>
+            <h2>Cuántos estudiantes van a inscribirse?</h2>
+            <p>Usa los botones para ajustar el número</p>
+            <div className='counterDiv'>
+                <button onClick={decrementar}>-</button>
+                <span>{cuenta}</span>
+                <button onClick={incrementar}>+</button>
+            </div>
+            <p>estudiantes inscritos</p>
+        </section>
     );
 }
 
